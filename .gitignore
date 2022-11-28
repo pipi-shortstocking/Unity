@@ -58,3 +58,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+UserSettings/
+MonoBleedingEdge/
+button_Data/
+button_BurstDebugInformation_DoNotShip/
+UnityPlayer.dll
+button.exe
+UnityCrashHandler64.exe

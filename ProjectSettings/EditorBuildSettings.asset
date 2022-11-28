@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/age select/Under1.unity
+    guid: 3119cf473a703b147a3e763ac3856a86
+  - enabled: 1
+    path: Assets/Scenes/age select/Up1.unity
+    guid: 4b1c906cd6d20f94c8ef763391f9330f
+  - enabled: 1
+    path: Assets/Scenes/level select/Up1 HWA Level.unity
+    guid: 61e0b8109d7e6854a8a3889da8553d14
+  - enabled: 1
+    path: Assets/Scenes/level select/Up1 YEOL Level.unity
+    guid: fddcfcdef6b3fb04cabffe56b1f706fd
+  - enabled: 1
+    path: Assets/Scenes/level select/Up1 HAIM Level.unity
+    guid: 1e6379718baa00f46ab774c767147a28
+  - enabled: 1
+    path: Assets/Scenes/level select/Up1 CPR Level.unity
+    guid: 7409afb1a52e3954091796d187e85e70
+  - enabled: 1
+    path: Assets/Scenes/level select/Under1 YEOL Level.unity
+    guid: fce8dc0e0baf64543819bf788629c3e5
+  - enabled: 1
+    path: Assets/Scenes/level select/Under1 HWA Level.unity
+    guid: 24ffa54f99b9121469e9130ef183a6de
+  - enabled: 1
+    path: Assets/Scenes/level select/Under1 HAIM Level.unity
+    guid: 4013411c2c2bc864dbb81e78fe406f6c
+  - enabled: 1
+    path: Assets/Scenes/level select/Under1 CPR Level.unity
+    guid: fcc6a128eb92aa14ba2de15117bb5925
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 808c32e1eb655074999d4f261345730f, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 99f34b2f308b2f6459a2552e448c7d81, type: 2}
