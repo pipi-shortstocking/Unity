@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/level select/Under1 HAIM Level.unity
     guid: 4013411c2c2bc864dbb81e78fe406f6c
   - enabled: 1
-    path: Assets/Scenes/level select/Under1 CPR Level.unity
+    path: Assets/Scenes/minigame-sohee/minigame4.unity
     guid: fcc6a128eb92aa14ba2de15117bb5925
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 808c32e1eb655074999d4f261345730f, type: 2}
