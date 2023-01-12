@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Button
-  - Slice
+  - Grab
   layers:
   - Default
   - TransparentFX
@@ -15,10 +14,10 @@ TagManager:
   - UI
   - 
   - 
-  - Slice1
-  - Slice2
-  - Slice3
-  - Slice4
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
