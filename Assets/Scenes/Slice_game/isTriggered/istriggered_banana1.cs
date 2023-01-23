@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class istriggered_banana4 : MonoBehaviour
+public class istriggered_banana1 : MonoBehaviour
 {
-    public bool banana4;
+    public int banana1;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        banana1 = 0;
     }
 
     // Update is called once per frame
@@ -22,7 +22,7 @@ public class istriggered_banana4 : MonoBehaviour
 	{
         if(col.gameObject.tag == "Knife")
 		{
-            banana4 = true;
+            banana1 += 1;
 		}
 	}
 }

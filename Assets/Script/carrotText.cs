@@ -48,7 +48,7 @@ public class carrotText : MonoBehaviour
                 first_text.SetActive(false);
                 middle_text.SetActive(false);
                 last_text.SetActive(true);
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(1); 
             }
             // ¾ÆÁ÷ ´ú Àß¶ú´Ù¸é(if not all cut)
             else
