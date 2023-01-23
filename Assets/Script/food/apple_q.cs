@@ -5,6 +5,7 @@ using TMPro;
 
 public class apple_q : MonoBehaviour
 {
+    public GameManager gameManager;
     Rigidbody rigid;
     public LayerMask worldLayer;
     Ray ray;
@@ -35,11 +36,13 @@ public class apple_q : MonoBehaviour
             info.text = "사과 조각은 멀리 두어야 합니다!";
             info.color = new Color(1, 0, 0, 1);
         }
-        else if (Physics.Raycast(ray, 0.001f, 1 << far_num))
+        else if (Physics.Raycast(ray, 0.01f, 1 << far_num))
         {
             Debug.Log("far");
             info.text = "사과 조각은 멀리 두어야 합니다!";
             info.color = new Color(0, 0, 1, 1);
+
+            gameManager.point += 1;
         }
     }
 }

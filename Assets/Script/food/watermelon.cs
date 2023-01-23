@@ -5,6 +5,7 @@ using TMPro;
 
 public class watermelon : MonoBehaviour
 {
+    public GameManager gameManager;
     Rigidbody rigid;
     public LayerMask worldLayer;
     Ray ray;
@@ -29,17 +30,19 @@ public class watermelon : MonoBehaviour
     {
         Debug.DrawRay(rigid.position, Vector3.down * 0.1f, new Color(0, 1, 0));
 
-        if (Physics.Raycast(ray, 0.001f, 1 << near_num))
+        if (Physics.Raycast(ray, 0.01f, 1 << near_num))
         {
             Debug.Log("near");
             info.text = "수박은 멀리 두어야 합니다!";
             info.color = new Color(1, 0, 0, 1);
         }
-        else if (Physics.Raycast(ray, 0.001f, 1 << far_num))
+        else if (Physics.Raycast(ray, 0.01f, 1 << far_num))
         {
             Debug.Log("far");
             info.text = "수박은 멀리 두어야 합니다!";
             info.color = new Color(0, 0, 1, 1);
+
+            gameManager.point += 1;
         }
     }
 }

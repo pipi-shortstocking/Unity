@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 5507087337539481242}
   - component: {fileID: 5987098080911889941}
   - component: {fileID: 7414106249682782767}
-  - component: {fileID: 3435753749973665179}
   m_Layer: 0
   m_Name: Candy Cane B
   m_TagString: Untagged
@@ -31,6 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -54,6 +54,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -114,17 +115,3 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5252655113370359597, guid: 495a1f5f6647bad469f2bc46c1eb7f60, type: 3}
---- !u!64 &3435753749973665179
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6299945102780927823}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3414017750710314963, guid: 3af5b9db7db750246ab1f33e6ab7cc75, type: 3}
